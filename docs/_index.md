@@ -1,13 +1,14 @@
 <p class="lead">
-	<strong>Daux.io</strong> is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way.
+The <strong>jQuery Validation plugin</strong> provides drop-in validation for your existing forms, while making all kinds of customizations to fit your application really easy.
 </p>
 
 <hr/>
 <h3>Features</h3>
 <hr/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yaxUV3Ib4vM?VQ=HD720" frameborder="0" class="img-responsive pull-right"  style="height: 345px; margin-bottom:20px;" allowfullscreen></iframe>
 
-<img src="img/app-thumbs.png" alt="alt text" class="img-responsive pull-right"  style="margin-bottom:20px;">
-
+* Current version: 1.13.1
+* License: MIT
 * 100% Mobile Responsive
 * Supports GitHub Flavored Markdown
 * Auto created homepage/landing page
@@ -16,11 +17,9 @@
 * 4 Built-In Themes or roll your own
 * Functional, Flat Design Style
 * Shareable/Linkable SEO Friendly URLs
-* Built On Bootstrap
 * No Build Step
 * Git/SVN Friendly
 * Google Analytics
-* Optional code float layout
 
 <div class="clear"></div>
 <hr/>
