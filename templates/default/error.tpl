@@ -45,7 +45,7 @@
 <!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <title><?php echo $page['title']; ?></title>
-    <link rel="icon" href="<?php echo $page['theme']['favicon']; ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo $base_url; ?>favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <!-- Mobile -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -60,7 +60,7 @@
 </head>
 <body>
     <?php if ($params['repo']) { ?>
-        <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="<?php echo $base_url; ?>img/forkme_right.png" alt="Fork me on GitHub"></a>
     <?php } ?>
     <div class="container-fluid fluid-height wrapper">
         <div class="navbar navbar-fixed-top hidden-print">

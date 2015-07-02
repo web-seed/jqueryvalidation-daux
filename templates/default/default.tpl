@@ -79,7 +79,7 @@
     <meta name="description" content="<?php echo $page['tagline'];?>" />
     <meta name="author" content="<?php echo $page['author']; ?>">
     <meta charset="UTF-8">
-    <link rel="icon" href="<?php echo $page['theme']['favicon']; ?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo $base_url; ?>favicon.ico" type="image/x-icon">
     <!-- Mobile -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,7 +101,7 @@
             </div>
         </div>
         <?php if ($params['repo']) { ?>
-            <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+            <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="<?php echo $base_url; ?>img/forkme_right.png" alt="Fork me on GitHub"></a>
         <?php } ?>
 
         <div class="homepage-hero well container-fluid">
@@ -173,7 +173,7 @@
     <?php } else { ?>
         <!-- Docs -->
         <?php if ($params['repo']) { ?>
-            <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+            <a href="https://github.com/<?php echo $params['repo']; ?>" target="_blank" id="github-ribbon" class="hidden-print"><img src="<?php echo $base_url; ?>img/forkme_right.png" alt="Fork me on GitHub"></a>
         <?php } ?>
         <div class="container-fluid fluid-height wrapper">
             <div class="navbar navbar-fixed-top hidden-print">
