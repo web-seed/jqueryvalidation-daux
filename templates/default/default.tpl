@@ -203,7 +203,7 @@
 
                                 <!-- Links -->
                                 <?php foreach ($params['links'] as $name => $url) echo '<a href="' . $url . '" target="_blank">' . $name . '</a><br>'; ?>
-                                <?php if ($params['toggle_code']) echo '<a href="#" id="toggleCodeBlockBtn" onclick="toggleCodeBlocks();">Show Code Blocks Inline</a><br>'; ?>
+                                <a href="#" id="toggleCodeBlockBtn" onclick="toggleCodeBlocks();" class="<?php if (!$params['toggle_code']) echo 'hidden'; ?>">Show Code Blocks Inline</a>
 
                                 <!-- Twitter -->
                                 <?php foreach ($params['twitter'] as $handle) { ?>

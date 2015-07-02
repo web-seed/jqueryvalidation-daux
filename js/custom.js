@@ -64,5 +64,5 @@ $(function () {
         codeBlockState = 2;
         toggleCodeBlockBtn.classList.add('hidden');
     }
-    setCodeBlockStyle(codeBlockState);
+    //setCodeBlockStyle(codeBlockState);
 });
